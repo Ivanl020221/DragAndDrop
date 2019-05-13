@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
         <WindowsFormsHost Name="Mask"/>
         <Label Grid.Column="1" MouseDown="Test_MouseDown">ssa</Label>
-        <ListBox Name="Test" ItemsSource="{Binding users}" Grid.Row="1" ListBoxItem.Selected="Test_Selected">
+        <ListBox Name="Test" ItemsSource="{Binding users}" Grid.Row="1">
            
             <ListBox.ItemTemplate>
                 <DataTemplate>
