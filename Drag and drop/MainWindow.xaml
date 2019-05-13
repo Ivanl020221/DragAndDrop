@@ -1,0 +1,31 @@
+﻿<Window x:Class="Drag_and_drop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     
+        xmlns:local="clr-namespace:Drag_and_drop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <WindowsFormsHost Name="Mask"/>
+        <Label Grid.Column="1" MouseDown="Test_MouseDown">ssa</Label>
+        <ListBox Name="Test" ItemsSource="{Binding users}" Grid.Row="1" ListBoxItem.Selected="Test_Selected">
+           
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Name}" IsReadOnly="True" MouseDown="Test_MouseDown" IsEnabled="False"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBox Grid.Column="1" Grid.Row="1" Name="Tests"/>
+    </Grid>
+</Window>
