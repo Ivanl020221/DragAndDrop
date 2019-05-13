@@ -1,0 +1,15 @@
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\bin\Debug\Drag and drop.exe.config
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\bin\Debug\Drag and drop.exe
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\bin\Debug\Drag and drop.pdb
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\MainWindow.g.cs
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\App.g.cs
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop_MarkupCompile.cache
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop_MarkupCompile.lref
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\MainWindow.baml
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.g.resources
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag_and_drop.Properties.Resources.resources
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.exe
+C:\Users\DELL\source\repos\Drag and drop\Drag and drop\obj\Debug\Drag and drop.pdb
