@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -43,6 +46,18 @@ namespace Drag_and_drop
             Test.MouseDown += this.Test_MouseDown;
             Test.SelectionChanged += this.Test_SelectionChanged;
             Tests.Drop += this.Tests_Drop;
+            //System.Windows.Forms.DataVisualization.Charting.Chart chart = new Chart();
+            //chart.Series.Add("ser1");
+            //chart.DataSource = users;
+            //chart.Series["ser1"].XValueMember = "Name";
+            //chart.Series["ser1"].YValueMembers = "BirthDate";
+
+            //chart.Titles.Add("Users");
+            //chart.Series["ser1"].ChartType = SeriesChartType.Pie;
+
+            //chart.Series["ser1"].IsValueShownAsLabel = true;
+            //NewChart.Child = chart;
+            //PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(User));
         }
 
         private void Test_SelectionChanged(object sender, SelectionChangedEventArgs e) => DragDrop.DoDragDrop((ListBox)sender, (((ListBox)sender).SelectedItem as User).Name, DragDropEffects.All); 

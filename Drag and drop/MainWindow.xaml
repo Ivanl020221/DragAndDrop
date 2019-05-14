@@ -19,13 +19,26 @@
         <WindowsFormsHost Name="Mask"/>
         <Label Grid.Column="1" MouseDown="Test_MouseDown">ssa</Label>
         <ListBox Name="Test" ItemsSource="{Binding users}" Grid.Row="1">
-           
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBox Text="{Binding Name}" IsReadOnly="True" MouseDown="Test_MouseDown" IsEnabled="False"/>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <GroupBox Header="Its to Drag and Drop" BorderBrush="{x:Null}">
+                
         <TextBox Grid.Column="1" Grid.Row="1" Name="Tests"/>
+            </GroupBox>
+            <GroupBox Header="Chart" BorderBrush="Transparent" Grid.Row="1">
+                <WindowsFormsHost Name="NewChart">
+                    
+                </WindowsFormsHost>
+            </GroupBox>
+        </Grid>
     </Grid>
 </Window>
