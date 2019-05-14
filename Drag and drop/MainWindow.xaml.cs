@@ -58,6 +58,7 @@ namespace Drag_and_drop
             //chart.Series["ser1"].IsValueShownAsLabel = true;
             //NewChart.Child = chart;
             //PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(User));
+            var a = ValidError.x0A;
         }
 
         private void Test_SelectionChanged(object sender, SelectionChangedEventArgs e) => DragDrop.DoDragDrop((ListBox)sender, (((ListBox)sender).SelectedItem as User).Name, DragDropEffects.All); 
@@ -76,5 +77,17 @@ namespace Drag_and_drop
         public string Name { get; set; }
 
         public DateTime BirthDate { get; set; }
+    }
+
+    public enum ValidError
+    {
+        /// <summary>
+        /// Все прошло удачно
+        /// </summary>
+        x0A,
+        /// <summary>
+        /// Ошибка пароля
+        /// </summary>
+        x1A
     }
 }
